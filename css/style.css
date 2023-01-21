@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background-color: aqua;
+    background-image: url(../img/fondoconsola.jpg);
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -8,19 +8,17 @@ body{
 }
 
 .container{
-    background-color: red;
+    background: linear-gradient(to bottom right, #f3dcb2 15%, #fdc866);
     height: 70vh;
     width: 80vw;
     display: grid;
     grid-template-columns: 2fr 4fr 2fr;
     grid-template-rows: 2fr 2fr;
+    border: outset #d00e21;
+    border-width: 25px 10px;
 }
 
-.box{
-    border: solid black 1px;
-}
-
-/* Parte izquierda de la consola */
+/* Parte superior izquierda de la consola */
 
 .leftup{
     display: flex;
@@ -29,7 +27,7 @@ body{
 }
 
 .logo{
-    background-color: antiquewhite;
+    background-color: #E2E2E2;
     height: 45%;
     width: 40%;
     text-align: center;
@@ -40,6 +38,8 @@ body{
     margin-bottom: 40px;
 }
 
+
+/* Parte inferior izquierda de la consola */
 
 .leftdown{
     display: flex;
@@ -64,12 +64,12 @@ img{
 #marco{
     height: 85%;
     width: 95%;
-    background-color: darksalmon;
+    background-color: #F4D395;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: outset lightpink;
+    border: outset #F8EFC1;
     border-width: 20px 10px 10px 20px;
     border-radius: 10px;
 }
@@ -82,7 +82,7 @@ img{
 #pantalla1{
     height: 73%;
     width: 94%;
-    border: solid white 10px;
+    border: solid #d00e21 10px;
     border-radius: 15px;
 }
 
@@ -118,13 +118,13 @@ img{
     height: 10%;
     width: 30%;
     border-radius: 30px;
-    border: solid yellow 5px;
+    border: solid #d00e21 5px;
 }
 
 .minigame{
     height: 93%;
     width: 97%;
-    background-color: darkred;
+    background-color: #ABA6AF;
     border-radius: 30px;
     border: solid black 1px;
 }
@@ -142,7 +142,6 @@ img{
     justify-content: center;
     align-items: flex-end;
     height: 60%;
-    background-color: yellow;
     gap: 50px;
 }
 
@@ -150,13 +149,13 @@ img{
     height: 45%;
     width: 25%;
     border-radius: 50%;
-    border: solid red 10px;
+    border: solid #d00e21 10px;
 }
 
 .botona1{
     height: 98%;
     width: 98%;
-    background-color: darkred;
+    background-color: #ff3b5f;
     border-radius: 50%;
     border: solid black 1px;
 }
@@ -167,7 +166,6 @@ img{
     justify-content: center;
     align-items: flex-start;
     text-align: center;
-    background-color: rgb(27, 105, 50);
     font-size: 20px;
 }
 
