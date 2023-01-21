@@ -100,7 +100,38 @@ img{
     font-weight: bold;
 }
 
-/* Parte derecha inferior de la consola botones*/
+/* Parte superior derecha de la consola minibotones */
+
+.rightup{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.miniboton1{
+    height: 10%;
+    width: 20%;
+    border-radius: 30px;
+    border: solid yellow 5px;
+    margin-left: 30px;
+}
+
+.minigame{
+    height: 93%;
+    width: 97%;
+    background-color: darkred;
+    border-radius: 30px;
+    border: solid black 1px;
+}
+
+.miniletra{
+    font-size: 15px;
+    padding: 2px;
+    margin-left: 40px;
+}
+
+
+/* Parte inferior derecha de la consola botones*/
 
 #botonesab{
     display: flex;
@@ -108,7 +139,7 @@ img{
     align-items: flex-end;
     height: 60%;
     background-color: yellow;
-    gap: 30px;
+    gap: 50px;
 }
 
 .botona{
@@ -138,13 +169,11 @@ img{
 
 .letrab{
     width: 50%;
-    margin-left: 17px;
     margin-top: 15px;
 
 }
 
 .letraa{
     width: 50%;
-    margin-right: 17px;
     margin-top: 15px;
 }
