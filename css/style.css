@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    background-color: aqua;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: red;
+    height: 70vh;
+    width: 80vw;
+    display: grid;
+    grid-template-columns: 2fr 4fr 2fr;
+    grid-template-rows: 2fr 2fr;
+}
+
+.box{
+    border: solid black 1px;
+}
+
+/* Parte izquierda de la consola */
+
+.leftup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    background-color: antiquewhite;
+    height: 45%;
+    width: 40%;
+    text-align: center;
+    border: solid black 2px;
+    border-radius: 8px;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.leftdown{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 60%;
+    height: 70%;
+}
+
+/* Parte central de la consola */
+
+.pantalla{
+    grid-area: 1/2/3/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#marco{
+    height: 85%;
+    width: 95%;
+    background-color: darksalmon;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: outset lightpink;
+    border-width: 20px 10px 10px 20px;
+    border-radius: 10px;
+}
+
+#supermario{
+    font-size: 30px;
+    padding: 5px;
+}
+
+#pantalla1{
+    height: 73%;
+    width: 94%;
+    border: solid white 10px;
+    border-radius: 15px;
+}
+
+#fondomario{
+    height: 97%;
+    width: 95.3%;
+    border: solid black;
+    border-width: 5px 12px 5px 12px;
+}
+
+#nintendo{
+    padding: 2px;
+    margin: 3px;
+    font-size: 18px;
+    border: 3px solid black;
+    border-radius: 40px;
+    font-weight: bold;
+}
+
+/* Parte derecha inferior de la consola botones*/
+
+#botonesab{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 60%;
+    background-color: yellow;
+    gap: 30px;
+}
+
+.botona{
+    height: 45%;
+    width: 25%;
+    border-radius: 50%;
+    border: solid red 10px;
+}
+
+.botona1{
+    height: 98%;
+    width: 98%;
+    background-color: darkred;
+    border-radius: 50%;
+    border: solid black 1px;
+}
+
+#letrasab{
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    background-color: rgb(27, 105, 50);
+    font-size: 20px;
+}
+
+.letrab{
+    width: 50%;
+    margin-left: 17px;
+    margin-top: 15px;
+
+}
+
+.letraa{
+    width: 50%;
+    margin-right: 17px;
+    margin-top: 15px;
+}
