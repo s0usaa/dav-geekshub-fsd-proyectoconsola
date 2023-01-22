@@ -41,16 +41,149 @@ body{
 
 /* Parte inferior izquierda de la consola */
 
-.leftdown{
+.containerizq{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-img{
-    width: 60%;
-    height: 70%;
+
+.leftdown{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 150px;
+    height: 150px;
 }
+
+
+#cruzarriba{
+    background-color: rgb(70, 69, 69);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    border-top: solid #d00e21 5px;
+    border-left: solid #d00e21 5px;
+    border-right: #d00e21 solid 5px;
+    cursor: pointer;
+}
+
+#cruzarriba:active{
+    background-color: rgb(43, 43, 43);
+}
+
+#trianarriba{
+    width: 0;
+    height: 0;
+    border-right: 20px solid transparent;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid rgb(51, 51, 51);
+    border-left: 20px solid transparent;
+    position: absolute;
+    margin-bottom: 20px;
+}
+
+.cuadraditos{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(51, 51, 51);
+}
+
+#cruzizq{
+        background-color: rgb(70, 69, 69);
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        border-top: solid #d00e21 5px;
+        border-left: solid #d00e21 5px;
+        border-bottom: #d00e21 solid 5px;
+        cursor: pointer;
+}
+
+#cruzizq:active{
+    background-color: rgb(43, 43, 43);
+}
+
+#trianizq{
+    width: 0;
+    height: 0;
+    border-right: 20px solid rgb(51, 51, 51);
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    position: absolute;
+    margin-right: 20px;
+}
+
+#cruzcentro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right bottom, rgb(70, 69, 69) 50%, rgb(89, 89, 89))
+}
+
+#circulo{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgb(51, 51, 51);
+    border: inset 2px rgb(89, 89, 89);
+}
+
+#cruzder{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(89, 89, 89);
+    border-top: solid #d00e21 5px;
+    border-bottom: solid #d00e21 5px;
+    border-right: #d00e21 solid 5px;
+    cursor: pointer;
+}
+
+#cruzder:active{
+    background-color: rgb(43, 43, 43);
+}
+
+#triander{
+    width: 0;
+    height: 0;
+    border-left: 20px solid rgb(51, 51, 51);
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    position: absolute;
+    margin-left: 20px;
+}
+
+#cruzabajo{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(89, 89, 89);
+    border-bottom: solid #d00e21 5px;
+    border-left: solid #d00e21 5px;
+    border-right: #d00e21 solid 5px;
+    cursor: pointer;
+}
+
+#cruzabajo:active{
+    background-color: rgb(43, 43, 43);
+}
+
+#trianabajo{
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid rgb(51, 51, 51);
+    border-bottom: 20px solid transparent;
+    position: absolute;
+    margin-top: 20px;
+}
+
+
+
 
 /* Parte central de la consola */
 
