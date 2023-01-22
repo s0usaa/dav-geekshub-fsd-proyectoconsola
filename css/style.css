@@ -129,6 +129,13 @@ img{
     border: solid black 1px;
 }
 
+.minigame:active{
+    height: 90%;
+    width: 95%;
+    background-color: #767279;
+    box-shadow: 1px 1px 1px 1px rgba(39, 38, 38, 0.545);
+}
+
 .miniletra{
     font-size: 15px;
     padding: 2px;
@@ -158,6 +165,13 @@ img{
     background-color: #ff3b5f;
     border-radius: 50%;
     border: solid black 1px;
+}
+
+.botona1:active{
+    height: 95%;
+    width: 95%;
+    background-color: #bb324b;
+    box-shadow: 1px 1px 1px 1px rgba(39, 38, 38, 0.806);
 }
 
 #letrasab{
