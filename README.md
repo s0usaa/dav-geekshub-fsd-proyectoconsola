@@ -9,7 +9,8 @@
 
 Hemos usado codigo basado en HTML y le hemos dado estilos con CSS. Para el cuerpo principal de la consola hemos usado un **Display: Grid;** para poder dividir las cajas y trabajar sobre ellas.
 
-<img width="1033" alt="Captura de pantalla 2023-01-22 a las 21 31 35" src="https://user-images.githubusercontent.com/120210515/213938925-38879192-656a-4ca1-b0e7-c9974d513647.png">
+<img width="1040" alt="Captura de pantalla 2023-01-22 a las 21 53 04" src="https://user-images.githubusercontent.com/120210515/213939884-37a33b88-8be9-4f95-a1e8-bc469f74c105.png">
+
 
 
 Hemos añadido efectos a los botones de la consola cuando se pulsan sobre ella cambiando el color y en algun caso el tamaño.
